@@ -1,0 +1,14 @@
+From: {SEND_EMAIL_AS}
+To: {SEND_EMAIL_TO}
+Subject: {EMAIL_SUBJECT}
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="gc0p4Jq0M2Yt08jU534c0p"
+	
+--gc0p4Jq0M2Yt08jU534c0p
+Content-Type: {MAIL_CONTENT_TYPE}; charset="utf-8"
+
+{EMAIL_BODY}
+
+--gc0p4Jq0M2Yt08jU534c0p--
+
